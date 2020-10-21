@@ -47,3 +47,31 @@
 #par{
     text-align: center;
 }
+.response{
+    height: 30vh;
+    background:url("../Images/background1.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+  .responseP{
+    color:black;
+    text-align:center;
+    font-size: 20px;
+
+  }
+  .number{
+    color:black;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .fa-phone-alt{
+    font-size: 30px;
+  }
+  .responsePp,.name{
+    color: #c81717;
+  }
+  .num{
+    font-weight: 800;
+    color: black;
+  }
