@@ -18,7 +18,7 @@ h1 {
 
 p {
     margin-left: 10px;
-    color: black;
+    color: white;
 }
 
 
@@ -45,6 +45,15 @@ body {
     color: grey;
     
   }
+
+
+
+.img img{
+  height:200px;
+  width: 250px;
+  margin-top:-80px ;
+  float: left;
+}
   
-  
+ 
   
