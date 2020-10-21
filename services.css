@@ -1,0 +1,57 @@
+cards {
+    margin-left: 150px;
+    align-content:center;
+}
+.word p{
+    font: size 12px;
+    color:black;
+}
+.word p span{
+    color:red ;
+    font-weight: bolder;
+}
+.service1, .services2, .services3{
+    display: flex;
+
+}
+.text1, .text3{
+    padding-left: 50px;
+    width: 1000px;
+    font-size: xx-large;
+}
+.text2{
+    width:1000px;
+    font-size: xx-large;
+}
+.text1 span, .text2 span, .text3 span{
+    color: red;
+}
+.image2{
+    padding-left: 50px;
+}
+.nav{
+    background-color:black;
+    color: rgb(209, 19, 136);
+    text-align: center;
+    font-size: medium;
+    font-weight:bolder ;
+    flex: inherit;
+    word-spacing:1cm ;
+}
+.nav li{
+    display: inline-flex;
+}
+.nav ul{
+    list-style: none;
+    background-color: white;
+    text-align:center;
+}
+.services{
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+h2{
+    color:rgb(209, 19, 136);
+    text-align: center;
+}
