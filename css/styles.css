@@ -23,3 +23,18 @@
     border:3px solid white;
     font-family:'Times New Roman', Times, serif;
   }
+  .mission-pic {
+    background-color:beige;
+    padding: 20px 30px 40px;
+  }
+  .vision{
+    padding: 45px 30px 40px;
+    background-color: beige;
+  }
+  #our{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    color: green;
+    font-weight:bolder;
+    text-shadow: 6px 4px 4px rgb(216, 35, 171);
+}
