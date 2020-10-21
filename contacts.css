@@ -41,6 +41,14 @@ label {
     margin-top: 110px;
     margin-top: -70px;
 }
+#services-available {
+    margin-left: 15px;
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 
 
