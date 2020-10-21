@@ -3,181 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YARD WASTE</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-<div id="About us">
-  <h1>About us</h1>
-
-  <p>street flash Ltd is a leading waste management company in Kenya. <br>
-    The company was incorporated on the 4th of March 2003 to fill in the gap that existed in providing superior service in cleaning and waste management.
-
-
-    street flash .com Ltd has grown to be the market leader in these services.</p>
-  <p>
-    street flash acquires new trucks
-    <br>
-
-    acquires new trucks. The new trucks are expected in the country shortly & boosts the trucks number from 14 to 21.<br>
-     The trucks were bought @ a total cost of kshs 10 million. In terms of capacity this is a welcome move aimed at positioning the company in a better position.
-    </p>
-
-    <p>
-      Sreet flash launches new webite
-      <br>
-
-      We take pride in employing the best work force with technological expertise and industry specific domain knowledge that enables us to execute our duty to the client in the specified time schedule without compromising on quality and safety.<br>
-       We are an equal opportunity employer committed to health, safety and environment responsibility of our employees.
-    </p>
-
-    <p>Get rid of those insects {blog}
-      <br>
-
-      We are a company committed to developing solutions that accommodate continuing growth through research, innovation and a firm commitment to deliver value-added services to our customers.
-    </p>
-    <p>
-      Clean Up exercise for residents
-      <br>
-
-      Our company’s mission is to deliver value-added services that protect people and improve the environment. <br>
-      We aim to be a company that uses its industry knowledge and experience, to provide sustainable environmental protection solutions and services.
-    </p>
-
-
-</div>
-   
-    
-    <div id="contacts">
-      <h1>CONTACT US</h1> 
-
-      <p>We are situated on Lusaka rd, Industrial Area a 15 minute drive to the CBD of Nairobi, <br>
-         Talk to us today and get the best garbage disposal, cleaning & landscaping servics at the best rates in Town
-      </p>
-
-      <p>
-        Physical Address:<br>
-        Lusaka Rd (near DT Dobie Roundabout, Industrial Area, Nairobi, Kenya)
+    <fieldset>
+        <legend>Garbage form <i class="fa fa-trash" aria-hidden="true"></i></legend>
+    <form>
         
-        Fax: +555 223<br>
-        Tel: +555 123<br>
-        Twitter:@streetflash.com<br>
-        E-mail: streetflash @gmail.co.ke
-        
-      </p>
-
-      <form>
-        <input type="text" placeholder="NAME..." name="NAME" id="name">
-        <input type="email" placeholder="Email..." name="EMAIL" id="email">
-        <input type="text" placeholder="Your feedback" name="MESSAGE" id="message"><br>
-        
-        <button type="submit"  class="btn btn-primary" value="Submit" id="oder our services" onclick="totalPrice()">submit</button> <br>
-      </form><br>
-      <br>
-
-      <form class="garbage-form">
-        <fieldset>
-            <legend>Garbage form</legend>
-  
-            <label> Name</label>
             <div class="row">
-            <div class="col-md-4">
-              <input type="text" class="form-control" placeholder="First name">
+                <div class="col-md-5">
+                    <label>First Name</label>
+                    <input type="text"  name="fname" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-5">
+                    <label>Last Name</label>
+                    <input type="text"  name="lname" class="form-control" placeholder="Last name">
+                </div>
+        
             </div>
-            <div class="col">
-              <label></label>
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
-           </div>
-          
-          <div class="row">
-            <div class="col-md-4">
-            <label>LOCATION</label>
-            <br>
-      
-            <select id="constituency">
-              <option value="100" id="embakasi north">Embakasi north</option>
-              <option value="100" id="embakasi east">Embakasi east</option>
-              <option value="100" id="embakasi west">embakasi west</option>
-              <option value="100" id="embakasi south">embakasi south</option>
-              <option value="100" id="Dagoreti north">Dagoreti north</option>
-              <option value="100" id="makadara">makadara</option>
-              <option value="100" id="kibra">kibra</option>
-              <option value="100" id="ruraka">ruaraka</option>
-              <option value="100" id="kamukunji">kamukunji</option>
-              <option value="100" id="langata">langata</option>
-              <option value="100" id="starehe">starehe</option>
-              <option value="100" id="mathare">mathare</option>
-              <option value="100" id="kasarani">kasarani</option>
-              <option value="100" id="roysambu">roysambu</option>
-              <option value="100" id="westlands">westlands</option>
-            </select><br>
-            </div>
-            <div class="col">
-            <label>TYPE OF WASTE:</label>
-            <br>
-            <input id="type of waste" class="waste" type="text">
-  
             <br>
             <div class="row">
-              <div class="col-md-6">
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">NUMBER OF TRUCKS</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
+                <div class="col-md-5">
+                    <label>LOCATION <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </label><br>
+                    <select id="constituency" class="form-control" id="exampleFormControlSelect1">
+                        <option value="100" id="none">N/A</option>
+                        <option value="100" id="embakasi north">Embakasi north</option>
+                        <option value="100" id="embakasi east">Embakasi east</option>
+                        <option value="100" id="embakasi west">embakasi west</option>
+                        <option value="100" id="embakasi south">embakasi south</option>
+                        <option value="100" id="Dagoreti north">Dagoreti north</option>
+                        <option value="100" id="makadara">makadara</option>
+                        <option value="100" id="kibra">kibra</option>
+                        <option value="100" id="ruraka">ruaraka</option>
+                        <option value="100" id="kamukunji">kamukunji</option>
+                        <option value="100" id="langata">langata</option>
+                        <option value="100" id="starehe">starehe</option>
+                        <option value="100" id="mathare">mathare</option>
+                        <option value="100" id="kasarani">kasarani</option>
+                        <option value="100" id="roysambu">roysambu</option>
+                        <option value="100" id="westlands">westlands</option>
+                      </select>
+                </div>
+                <div class="col-md-5">
+                    <label>TYPE OF WASTE: <i class="fa fa-trash-o" aria-hidden="true"></i>
+                    </label>
+                    <input type="text" class="form-control" placeholder="Type of waste">
+                </div>
+        
             </div>
-              </div>
-              </div>
-              <br>
-              
-  
-              <div class="col">
-                <div class="services">
-              <label>SEVICES AVAILABLE</label>
-              <br>
-              <select id="services-available">
-                <option value="100" id="Garbage collection">Garbage collection</option>
-                <option value="100" id="Cleaning services">Cleaning services</option>
-                <option value="100" id="corprate cleaning">Corporate cleaning</option>
-                <option value="100" id="land scaping and ground maintanace">land scaping and ground maintanace</option>
-                <option value="100" id="cincineration services">incineration services</option>
-                <option value="100" id="material and equipments">materials and equipment</option>
-                <option value="100" id="sanitary desposal">sanitary desposal/option>
-                <option value="100" id="washroom services">washroom services</option>
-                <option value="100" id="other services">other services</option>
-              </select><br>
-              </select><br>
-            </div>
-          </div>
-         </div>
-          <div class="row">
-            <div class="col-md-12">
-              <button type="submit"  class="btn btn-primary" value="Submit" id="oder our services" onclick="totalPrice()">submit</button> <br>
-           </div>  
-          </div>
-          
-            
-        </fieldset>
-         
-            
-      </form>
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    <label for="Numberoftrucks"> NUMBER OF TRUCKS <i class="fa fa-truck" aria-hidden="true"></i>
+                    </label> <br>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>N/A</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <div class="services">
+                        <label>SEVICES AVAILABLE</label>
+                        <br>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="" id="none">N/A</option>
+                          <option value="100" id="Garbage collection">Garbage collection</option>
+                          <option value="100" id="Cleaning services">Cleaning services</option>
+                          <option value="100" id="corprate cleaning">Corporate cleaning</option>
+                          <option value="100" id="land scaping and ground maintanace">land scaping and ground maintanace</option>
+                          <option value="100" id="cincineration services">incineration services</option>
+                          <option value="100" id="material and equipments">materials and equipment</option>
+                          <option value="100" id="sanitary desposal">sanitary desposal/option>
+                          <option value="100" id="washroom services">washroom services</option>
+                          <option value="100" id="other services">other services</option>
+                        </select>
+                </div>
+             </div>
+        </div>
+        <br>
+                <div class="row">
+                    <div class="column">
+                        <button type="submit"  class="btn btn-primary" value="Submit" id="oder our services" onclick="totalPrice()">submit</button>
+                    </div>   
+                        <div class="row">
+                            <div class="column"></div>
+                        <button type="reset" class="btn btn-danger" value="reset">Clear</button>
+                            </div>
+                    </div>
+                
+                
+
+
+        </form>
+    </fieldset>
 
 
 
-
-
-    </div>  
-
-    
-
-    
-    
 </body>
 </html>
