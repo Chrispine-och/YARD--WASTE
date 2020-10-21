@@ -31,7 +31,6 @@ cards {
 }
 .nav{
     background-color:black;
-    color: rgb(209, 19, 136);
     text-align: center;
     font-size: medium;
     font-weight:bolder ;
@@ -52,6 +51,26 @@ cards {
     width: 100%;
 }
 h2{
-    color:rgb(209, 19, 136);
     text-align: center;
+}
+.logo {
+    vertical-align: middle;
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 50px;
+  }
+ 
+  #home li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+  }
+  #home li a:hover{
+    color:#c81717
+  }
+h3{
+    color: cyan;
+    text-align: justify;
 }
