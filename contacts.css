@@ -58,6 +58,13 @@ label {
 p {
     margin-left: 15px;
 }
+#name, #email, #message {
+    margin-left: 15px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+}
 
 
 
