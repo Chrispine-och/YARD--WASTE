@@ -34,12 +34,13 @@
   #our{
     font-family: 'Tangerine', serif;
     font-size: 40px;
-    color: green;
+    /* color: cyan; */
     font-weight:bolder;
-    text-shadow: 6px 4px 4px rgb(216, 35, 171);
+    text-shadow: 6px 4px 4px rgb(13, 12, 14);
 }
 #what{
     text-align: center;
+    text-shadow: 6px 4px 4px rgb(13, 12, 14);
 }
 #social{
     text-align: center;
