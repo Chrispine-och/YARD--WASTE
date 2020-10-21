@@ -1,6 +1,18 @@
 .garbage-form {
-  width: 50%;
+  width: 45%;
   height: 40% !important;
   margin-left: 40px;
+  border-radius: 15px;
+  background: rgb(0, 0, 0, 0.5);
   
 }
+
+
+label {
+    
+    margin-left:20px ;
+}
+
+
+
+   
