@@ -20,5 +20,13 @@ label {
     
 }
 
+#constituency {
+  
+    margin-left: 15px;
+    height: 35px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    
+}
 
-   
