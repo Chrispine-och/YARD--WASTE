@@ -1,111 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact us</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="contact.css">
-</head>
-<body>
+    <!-- MD bootstrap Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-white">
+      <img src="./images/PRESTON.png" giualt="image" class="logo" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="home">
+          <li class="nav-item active">
+            <a class="nav-link waves-effect waves-light p-3" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light p-3" href="aboutUs.html"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link waves-effect waves-light p-3"
+              href="services.html"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link waves-effect waves-light p-3"
+              href="contactUs.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br>
+    <br>
+
+  <div class="cintacts">
+    <h1> contact Us</h1>
+
+    
     <fieldset>
-        <legend>Garbage form <i class="fa fa-trash" aria-hidden="true"></i></legend>
-    <form>
-        
-            <div class="row">
-                <div class="col-md-5">
-                    <label>First Name</label>
-                    <input type="text"  name="fname" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-5">
-                    <label>Last Name</label>
-                    <input type="text"  name="lname" class="form-control" placeholder="Last name">
-                </div>
-        
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-5">
-                    <label>LOCATION <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </label><br>
-                    <select id="constituency" class="form-control" id="exampleFormControlSelect1">
-                        <option value="100" id="none">N/A</option>
-                        <option value="100" id="embakasi north">Embakasi north</option>
-                        <option value="100" id="embakasi east">Embakasi east</option>
-                        <option value="100" id="embakasi west">embakasi west</option>
-                        <option value="100" id="embakasi south">embakasi south</option>
-                        <option value="100" id="Dagoreti north">Dagoreti north</option>
-                        <option value="100" id="makadara">makadara</option>
-                        <option value="100" id="kibra">kibra</option>
-                        <option value="100" id="ruraka">ruaraka</option>
-                        <option value="100" id="kamukunji">kamukunji</option>
-                        <option value="100" id="langata">langata</option>
-                        <option value="100" id="starehe">starehe</option>
-                        <option value="100" id="mathare">mathare</option>
-                        <option value="100" id="kasarani">kasarani</option>
-                        <option value="100" id="roysambu">roysambu</option>
-                        <option value="100" id="westlands">westlands</option>
-                      </select>
-                </div>
-                <div class="col-md-5">
-                    <label>TYPE OF WASTE: <i class="fa fa-trash-o" aria-hidden="true"></i>
-                    </label>
-                    <input type="text" class="form-control" placeholder="Type of waste">
-                </div>
-        
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-5">
-                    <label for="Numberoftrucks"> NUMBER OF TRUCKS <i class="fa fa-truck" aria-hidden="true"></i>
-                    </label> <br>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>N/A</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                    <div class="services">
-                        <label>SEVICES AVAILABLE</label>
-                        <br>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option value="" id="none">N/A</option>
-                          <option value="100" id="Garbage collection">Garbage collection</option>
-                          <option value="100" id="Cleaning services">Cleaning services</option>
-                          <option value="100" id="corprate cleaning">Corporate cleaning</option>
-                          <option value="100" id="land scaping and ground maintanace">land scaping and ground maintanace</option>
-                          <option value="100" id="cincineration services">incineration services</option>
-                          <option value="100" id="material and equipments">materials and equipment</option>
-                          <option value="100" id="sanitary desposal">sanitary desposal/option>
-                          <option value="100" id="washroom services">washroom services</option>
-                          <option value="100" id="other services">other services</option>
-                        </select>
-                </div>
-             </div>
+      <legend>
+        Garbage form <i class="fa fa-trash" aria-hidden="true"></i>
+      </legend>
+      <form>
+        <div class="row">
+          <div class="col-md-5">
+            <label>First Name</label>
+            <input
+              type="text"
+              name="fname"
+              class="form-control"
+              placeholder="First name"
+            />
+          </div>
+          <div class="col-md-5">
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="lname"
+              class="form-control"
+              placeholder="Last name"
+            />
+          </div>
         </div>
-        <br>
-                <div class="row">
-                    <div class="column">
-                        <button type="submit"  class="btn btn-primary" value="Submit" id="oder our services" onclick="totalPrice()">submit</button>
-                    </div>   
-                        <div class="row">
-                            <div class="column"></div>
-                        <button type="reset" class="btn btn-danger" value="reset">Clear</button>
-                            </div>
-                    </div>
-                
-                
-
-
-        </form>
+        <br />
+        <div class="row">
+          <div class="col-md-5">
+            <label
+              >LOCATION
+              <i class="fa fa-map-marker" aria-hidden="true"></i> </label
+            ><br />
+            <select
+              id="constituency"
+              class="form-control"
+              id="exampleFormControlSelect1"
+            >
+              <option value="100" id="none">N/A</option>
+              <option value="100" id="embakasi north">Embakasi north</option>
+              <option value="100" id="embakasi east">Embakasi east</option>
+              <option value="100" id="embakasi west">embakasi west</option>
+              <option value="100" id="embakasi south">embakasi south</option>
+              <option value="100" id="Dagoreti north">Dagoreti north</option>
+              <option value="100" id="makadara">makadara</option>
+              <option value="100" id="kibra">kibra</option>
+              <option value="100" id="ruraka">ruaraka</option>
+              <option value="100" id="kamukunji">kamukunji</option>
+              <option value="100" id="langata">langata</option>
+              <option value="100" id="starehe">starehe</option>
+              <option value="100" id="mathare">mathare</option>
+              <option value="100" id="kasarani">kasarani</option>
+              <option value="100" id="roysambu">roysambu</option>
+              <option value="100" id="westlands">westlands</option>
+            </select>
+          </div>
+          <div class="col-md-5">
+            <label
+              >TYPE OF WASTE: <i class="fa fa-trash-o" aria-hidden="true"></i>
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Type of waste"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-5">
+            <label for="Numberoftrucks">
+              NUMBER OF TRUCKS <i class="fa fa-truck" aria-hidden="true"></i>
+            </label>
+            <br />
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>N/A</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="col-md-5">
+            <div class="services">
+              <label>SEVICES AVAILABLE</label>
+              <br />
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option value="" id="none">N/A</option>
+                <option value="100" id="Garbage collection">
+                  Garbage collection
+                </option>
+                <option value="100" id="Cleaning services">
+                  Cleaning services
+                </option>
+                <option value="100" id="corprate cleaning">
+                  Corporate cleaning
+                </option>
+                <option value="100" id="land scaping and ground maintanace">
+                  land scaping and ground maintanace
+                </option>
+                <option value="100" id="cincineration services">
+                  incineration services
+                </option>
+                <option value="100" id="material and equipments">
+                  materials and equipment
+                </option>
+                <option value="100" id="sanitary desposal">
+                  sanitary desposal/option>
+                </option>
+                <option value="100" id="washroom services">
+                  washroom services
+                </option>
+                <option value="100" id="other services">other services</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="column">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              value="Submit"
+              id="oder our services"
+              onclick="totalPrice()"
+            >
+              submit
+            </button>
+          </div>
+          <div class="row">
+            <div class="column"></div>
+            <button type="reset" class="btn btn-danger" value="reset">
+              Clear
+            </button>
+          </div>
+        </div>
+      </form>
     </fieldset>
 
 
+    <p>
+       we are locate along Lusaka Rd (near DT Dobie Roundabout, Industrial Area, Nairobi, Kenya<br>
 
-</body>
+        Fax: +555 223 <br>
+        Tel: +555 123br <br>
+        Twitter:@garbagedotcom <br>
+        E-mail: service@garbage.co.ke
+           
+    </p>
+
+
+    <div id="contact-us-container">
+        <h2 id="contact-header">reach us</h2>
+        <div id="contact-form">
+          <form action="" id="form-submission">
+            <div class="row" id="user-form-info">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Name..."
+                  id="user-name"
+                  size="41"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Email..."
+                  id="user-email"
+                  size="41"
+                />
+              </div>
+            </div>
+            <div class="row" id="user-comment-text">
+              <div class="col-md-12">
+                <textarea
+                  name="Comments"
+                  placeholder="Your text here... (Optional)"
+                  id="user-comments"
+                  cols="90"
+                  rows="8"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row" id="submit-button">
+              <div class="col-md-12">
+                <input type="submit" value="Submit" id="button-to-submit" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+  </div>
+  
+    <br />
+    <footer class="page-footer font-small cyan darken mt-1" id="contact">
+      <div class="footer">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <a class="fb-ic" href="">
+                <i
+                  class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <a class="tw-ic" href="">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <a class="gplus-ic">
+                <i class=""> </i>
+              </a>
+              <a class="li-ic" href="">
+                <i
+                  class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <a class="ins-ic" href="">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3 cyan darken">
+        <p>&copy; 2020 | Street Flash</p>
+      </div>
+    </footer>
+  </body>
 </html>
