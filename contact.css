@@ -70,3 +70,11 @@ label {
   #home li a:hover{
     color:#c81717
   }
+  h1{
+      text-align: center;
+      font-weight: bolder;
+  }
+  p{
+      text-align: center;
+      
+  }
