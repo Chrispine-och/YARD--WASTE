@@ -1,0 +1,130 @@
+fieldset{
+    border: black !important;
+    border-width: thin;
+    width: 700px;
+    margin-left: 350px;
+    margin-top: 50px;
+    height: 400px;
+    background: rgb(255,211,0 ,0.5);
+    border-radius: 15px;
+}
+
+fieldset.scheduler-border {
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+}
+
+legend {
+    width: auto !important;
+    border: solid !important;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important; 
+    font-family: impact, monospace, sans-serif; 
+      
+}
+
+form {
+    
+    width: 650px;
+    margin-left:60px ;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 400%;
+    text-align: center;
+}
+
+.btn-danger {
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 520%;
+}
+.logo {
+    vertical-align: middle;
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 50px;
+  }
+  #home li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+  }
+  #home li a:hover{
+    color:#c81717
+  }
+  h1{
+      text-align: center;
+      font-weight: bolder;
+  }
+  p{
+      text-align: center;
+      
+  }
+
+  #contact-us-container{
+    background: rgb(255,211,0 ,0.5);
+    border-radius: 15px;
+    
+    
+
+  }
+  #contact-form {
+    width: 65%;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #user-form-info {
+    padding-bottom: 1rem;
+  }
+  
+  #user-comment-text {
+    padding-bottom: 2rem;
+  }
+  
+  #contact-header {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  ::placeholder {
+    color:black;
+  }
+  
+  #user-name,
+  #user-email,
+  #user-comments {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 7px;
+  }
+  
+  #button-to-submit {
+    margin-left: 24.5rem;
+    margin-bottom: 2rem;
+    background: blue;
+    border: 1px solid black;
+    color:black;
+  }
